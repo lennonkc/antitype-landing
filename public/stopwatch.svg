@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bezelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a4a4c" />
+      <stop offset="20%" stop-color="#2a2a2c" />
+      <stop offset="80%" stop-color="#1a1a1c" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <radialGradient id="screenBase" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#151515" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+    <linearGradient id="glassGlare" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="yellowBtn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffca28" />
+      <stop offset="100%" stop-color="#f57f17" />
+    </linearGradient>
+    <linearGradient id="blueBtn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#42a5f5" />
+      <stop offset="100%" stop-color="#1565c0" />
+    </linearGradient>
+  </defs>
+
+  <g transform="rotate(-48 200 200)">
+    <rect x="168" y="26" width="64" height="20" rx="6" fill="#c49010" />
+    <rect x="168" y="22" width="64" height="16" rx="6" fill="url(#yellowBtn)" />
+  </g>
+
+  <g transform="rotate(48 200 200)">
+    <rect x="168" y="28" width="64" height="18" rx="6" fill="#0d47a1" />
+    <rect x="168" y="24" width="64" height="16" rx="6" fill="url(#blueBtn)" />
+  </g>
+
+  <circle cx="200" cy="200" r="164" fill="url(#bezelGrad)" />
+  <circle cx="200" cy="200" r="154" fill="#0a0a0a" stroke="#222" stroke-width="2" />
+
+  <g id="screen">
+    <circle cx="200" cy="200" r="150" fill="url(#screenBase)" />
+
+    <text x="95" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="84" fill="#ffffff" font-weight="300" letter-spacing="-2">07</text>
+    <text x="95" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="84" fill="#ffffff" font-weight="300" letter-spacing="-2">28</text>
+
+    <circle cx="260" cy="155" r="11" fill="#ffb300" />
+
+    <circle cx="256" cy="165" r="9" fill="#ffffff" />
+    <circle cx="270" cy="155" r="13" fill="#ffffff" />
+    <circle cx="282" cy="165" r="9" fill="#ffffff" />
+    <rect x="256" y="155" width="26" height="19" fill="#ffffff" />
+
+    <path d="M 260 182 L 257 190" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round" />
+    <path d="M 270 182 L 267 190" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round" />
+    <path d="M 280 182 L 277 190" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round" />
+
+    <text x="270" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#ffffff" font-weight="400" text-anchor="middle" letter-spacing="1">06·26</text>
+    <text x="270" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="21" fill="#b0b0b0" font-weight="400" text-anchor="middle">24°C</text>
+  </g>
+
+  <path d="M 52 180 A 148 148 0 0 1 348 180 Q 200 260 52 180 Z" fill="url(#glassGlare)" />
+  <path d="M 50 200 A 150 150 0 0 1 200 50 A 150 150 0 0 0 50 200 Z" fill="#ffffff" opacity="0.05" />
+</svg>
