@@ -29,8 +29,13 @@ scripts/shots/
 # macOS
 .DS_Store
 
-# Editors / tool state
+# Editors
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# Local agent / tool state (regenerable; never commit)
+.claude/
+.gitnexus/
+.superpowers/
