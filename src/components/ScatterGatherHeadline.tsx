@@ -12,7 +12,7 @@ interface ScatterGatherHeadlineProps {
 }
 
 /**
- * "Anti-type" headline reveal: every character starts flung across the
+ * "AntiType" headline reveal: every character starts flung across the
  * viewport — scattered, rotated, blurred, the wrong size — then the whole
  * sentence violently converges into place and snaps into focus. Chaos → order.
  *

@@ -10,14 +10,14 @@ export const hero = {
 
 export const watchText = {
   line1From: "M5 Stack",
-  line1To: "Anti-Type",
+  line1To: "AntiType",
   line2From: "StopWatch",
   line2To: "SpeakWatch",
 };
 
 /** Spoken narration for the page-3 long-press demo (≈49 words). */
 export const narration =
-  "Hey — this is Anti-Type, the SpeakWatch. I'm not typing this. I just press the button on my stopwatch and talk, and my words land right where my cursor is. No keyboard, no friction. Anywhere I can type, I can speak instead. That's it. Welcome to a world after typing.";
+  "Hey — this is AntiType, the SpeakWatch. I'm not typing this. I just press the button on my stopwatch and talk, and my words land right where my cursor is. No keyboard, no friction. Anywhere I can type, I can speak instead. That's it. Welcome to a world after typing.";
 
 /** Set via .env: VITE_YOUTUBE_ID=xxxx — empty string shows a placeholder. */
 export const youtubeId = import.meta.env.VITE_YOUTUBE_ID ?? "";

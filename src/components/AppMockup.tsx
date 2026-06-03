@@ -31,7 +31,7 @@ export function AppMockup({ children, status, className = "" }: AppMockupProps) 
         <span className="h-3 w-3 rounded-full bg-ink/15" />
         <span className="h-3 w-3 rounded-full bg-ink/15" />
         <span className="ml-3 font-mono text-xs tracking-widest text-ink/50">
-          anti-type://compose
+          AntiType://compose
         </span>
         <span className="ml-auto flex items-center gap-2 font-mono text-[10px] tracking-widest text-ink/60">
           <span

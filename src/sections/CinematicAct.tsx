@@ -94,7 +94,7 @@ function CinematicScrolled() {
       // watch shrinks up, app surface rises in
       tl.to(".cine-watch", { scale: 0.34, yPercent: -35, duration: 1 }, 4.0);
       tl.to(".cine-app", { autoAlpha: 1, y: 0, ease: "power3.out", duration: 0.8 }, 4.3);
-      // watch-face ripple lives ONLY across the anti-type://compose window: it
+      // watch-face ripple lives ONLY across the AntiType://compose window: it
       // blooms in with the app card and fades out as the card recedes (7.0,
       // before the watch re-grows / the video blooms). Both its opacity here and
       // its colour (driven by `status` below) are pure functions of scroll.

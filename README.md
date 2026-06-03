@@ -26,7 +26,7 @@ npm run preview  # serve the production build
 1. **Hero** — black; headline types itself in, byline jitters.
 2. **Reveal** — black "cardboard" splits apart to unbox the stopwatch; it grows
    to fill the screen; `M5 Stack` / `StopWatch` fly onto the dial and scramble
-   into `Anti-Type` / `SpeakWatch`.
+   into `AntiType` / `SpeakWatch`.
 3. **App demo** — the watch shrinks into the app; a virtual hand long-presses the
    button while the narration is "spoken" into the input field.
 4. **Live demo** — YouTube embed (or placeholder).
