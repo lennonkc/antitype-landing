@@ -19,8 +19,8 @@ export const watchText = {
 export const narration =
   "Hey — this is AntiType, the SpeakWatch. I'm not typing this. I just press the button on my stopwatch and talk, and my words land right where my cursor is. No keyboard, no friction. Anywhere I can type, I can speak instead. That's it. Welcome to a world after typing.";
 
-/** Set via .env: VITE_YOUTUBE_ID=xxxx — empty string shows a placeholder. */
-export const youtubeId = import.meta.env.VITE_YOUTUBE_ID ?? "";
+/** YouTube video id for the page-4 live demo — empty string shows a placeholder. */
+export const youtubeId = import.meta.env.VITE_YOUTUBE_ID || "1SsVVTIIB5g";
 
 /** Discord community invite — tooltip copy shown when hovering the Discord button. */
 export const discordInvite =
